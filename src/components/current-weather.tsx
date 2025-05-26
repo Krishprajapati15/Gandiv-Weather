@@ -24,7 +24,7 @@ export function CurrentWeather({ data, locationName }: CurrentWeatherProps) {
           <div className="space-y-4">
             <div className="space-y-2">
               <div className="flex items-center">
-                <h2 className="text-2xl font-bold tracking-tight">
+                <h2 className="text-2xl font-bold tracking-tigh">
                   {locationName?.name}
                 </h2>
                 {locationName?.state && (
