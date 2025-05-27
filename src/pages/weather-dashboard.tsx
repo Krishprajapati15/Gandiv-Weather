@@ -26,7 +26,6 @@ export function WeatherDashboard() {
   const forecastQuery = useForecastQuery(coordinates);
   const locationQuery = useReverseGeocodeQuery(coordinates);
 
-  // Function to refresh all data
   const handleRefresh = () => {
     getLocation();
     if (coordinates) {
