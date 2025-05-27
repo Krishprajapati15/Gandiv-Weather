@@ -63,7 +63,6 @@ export function CitySearch() {
               <CommandEmpty>No cities found.</CommandEmpty>
             )}
 
-            {/* Favorites Section */}
             {favorites.length > 0 && (
               <CommandGroup heading="Favorites">
                 {favorites.map((city) => (
