@@ -86,7 +86,6 @@ export function CitySearch() {
               </CommandGroup>
             )}
 
-            {/* Search History Section */}
             {history.length > 0 && (
               <>
                 <CommandSeparator />
