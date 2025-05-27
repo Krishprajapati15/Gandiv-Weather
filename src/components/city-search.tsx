@@ -128,7 +128,6 @@ export function CitySearch() {
               </>
             )}
 
-            {/* Search Results */}
             <CommandSeparator />
             {locations && locations.length > 0 && (
               <CommandGroup heading="Suggestions">
